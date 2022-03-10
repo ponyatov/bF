@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classObject.html" title="object hypergraph node /root class/" alt="" coords="5,56,69,83"/>
+<area shape="rect" id="node2" href="$classPrimitive.html" title=" " alt="" coords="117,56,199,83"/>
+<area shape="rect" id="node3" href="$classNum.html" title="number /floating point/" alt="" coords="247,5,300,32"/>
+<area shape="rect" id="node5" href="$classStr.html" title="string" alt="" coords="253,56,293,83"/>
+<area shape="rect" id="node6" href="$classSym.html" title="symbol" alt="" coords="248,107,299,133"/>
+<area shape="rect" id="node4" href="$classInt.html" title="integer" alt="" coords="348,5,387,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Primitive" name="Primitive">
+<area shape="rect" id="node1" title=" " alt="" coords="62,80,143,107"/>
+<area shape="rect" id="node3" href="$classNum.html" title="number /floating point/" alt="" coords="5,155,59,181"/>
+<area shape="rect" id="node5" href="$classStr.html" title="string" alt="" coords="83,155,123,181"/>
+<area shape="rect" id="node6" href="$classSym.html" title="symbol" alt="" coords="147,155,197,181"/>
+<area shape="rect" id="node2" href="$classObject.html" title="object hypergraph node /root class/" alt="" coords="71,5,135,32"/>
+<area shape="rect" id="node4" href="$classInt.html" title="integer" alt="" coords="13,229,51,256"/>
+</map>

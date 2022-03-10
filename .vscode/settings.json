@@ -1,0 +1,51 @@
+{
+    // \ multi
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.f11",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                {"command": "workbench.action.terminal.sendSequence",
+                    "args": {"text": "\u000D clear ; LANG=C make doxy \u000D"}}
+            ]
+        },
+        {
+            "command": "multiCommand.f12",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                {"command": "workbench.action.terminal.sendSequence",
+                    "args": {"text": "\u000D clear ; LANG=C make all \u000D"}}
+            ]
+        },
+    ],
+    // \ multi
+
+    // \ files
+    "files.exclude": {
+        "**/docs/**":true,
+        "**/bF/**":true,
+        // "**/target/**":true,
+    },
+    "files.watcherExclude": {
+        "**/docs/**":true,
+        // "**/bF/**":true,
+        // "**/target/**":true,
+    },
+    "files.associations": {
+        "*.bF": "forth",
+    },
+    // / files
+    
+    // \ editor
+    "editor.tabSize": 4,
+    "editor.rulers": [80],
+    "workbench.tree.indent": 32,
+    "git.ignoreLimitWarning": true,
+    // / editor
+
+    // \ msys
+    "terminal.integrated.shell.windows": "C:\\msys\\usr\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": ["--login", "-i"],
+    "terminal.integrated.env.windows": {"CHERE_INVOKING": "1"},
+    // / msys
+}

@@ -1,0 +1,3 @@
+git make curl
+code meld doxygen
+g++ flex bison
