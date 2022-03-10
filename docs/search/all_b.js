@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tag_15',['tag',['../classObject.html#affe8e3b76731e0410f9db28f56554656',1,'Object']]],
-  ['token_16',['TOKEN',['../bF_8hpp.html#abc645874599ca7e64d78528dd021c832',1,'bF.hpp']]]
+  ['val_16',['val',['../classObject.html#a8e3aa8bb6813b93f05adc6fd20825c6a',1,'Object']]],
+  ['value_17',['value',['../classObject.html#aba883e5c9061751636964481aeef27a3',1,'Object::value()'],['../classNum.html#a161ac71ecb22bac301be237b2454ad0d',1,'Num::value()'],['../classInt.html#ab131a0721b22e28accfb39f0195413ab',1,'Int::value()']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_6',['main',['../bF_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'bF.cpp']]]
+  ['num_6',['Num',['../classNum.html',1,'Num'],['../classNum.html#a2551bb7ef61428c6094f8ee4cff255ce',1,'Num::Num()']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_3cimg_20src_3d_22doc_2flogo_2fpng_22_20alt_3d_22_22_2f_3e_20bf_0',['&lt;img src=&quot;doc/logo/png&quot; alt=&quot;&quot;/&gt; bF',['../index.html',1,'']]]
+  ['bf_2ecpp_0',['bF.cpp',['../bF_8cpp.html',1,'']]],
+  ['bf_2ehpp_1',['bF.hpp',['../bF_8hpp.html',1,'']]]
 ];

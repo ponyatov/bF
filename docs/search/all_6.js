@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['num_7',['Num',['../classNum.html',1,'Num'],['../classNum.html#a2551bb7ef61428c6094f8ee4cff255ce',1,'Num::Num()']]]
+  ['object_7',['Object',['../classObject.html',1,'Object'],['../classObject.html#ac90a03ac53b26cc394c92270ac2b0fd8',1,'Object::Object()']]],
+  ['object_20core_20_2f_20metal_20_2f_8',['Object Core / metaL /',['../group__core.html',1,'']]]
 ];

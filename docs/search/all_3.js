@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['head_4',['head',['../classObject.html#a4321e39985e8b3a098442eba8beaf687',1,'Object']]]
+  ['int_4',['Int',['../classInt.html',1,'Int'],['../classInt.html#a1ec4bdade26097175179dea593c7a42f',1,'Int::Int()']]]
 ];

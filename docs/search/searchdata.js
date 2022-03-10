@@ -1,13 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "<bdhimnoprstvy~",
+  0: "bdhimnoprstvy~",
   1: "inops",
   2: "br",
   3: "dhimnopstvy~",
   4: "vy",
   5: "ty",
-  6: "op",
-  7: "<"
+  6: "op"
 };
 
 var indexSectionNames =
@@ -18,8 +17,7 @@ var indexSectionNames =
   3: "functions",
   4: "variables",
   5: "defines",
-  6: "groups",
-  7: "pages"
+  6: "groups"
 };
 
 var indexSectionLabels =
@@ -30,7 +28,6 @@ var indexSectionLabels =
   3: "Functions",
   4: "Variables",
   5: "Macros",
-  6: "Modules",
-  7: "Pages"
+  6: "Modules"
 };
 
