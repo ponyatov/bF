@@ -79,33 +79,74 @@ Inheritance diagram for Object:</div>
 <div class="dyncontent">
 <div class="center"><img src="classObject__inherit__graph.png" border="0" usemap="#aObject_inherit__map" alt="Inheritance graph"/></div>
 <map name="aObject_inherit__map" id="aObject_inherit__map">
-<area shape="rect" title="object hypergraph node /root class/" alt="" coords="71,5,135,32"/>
-<area shape="rect" href="classPrimitive.html" title=" " alt="" coords="62,80,143,107"/>
-<area shape="rect" href="classNum.html" title="number /floating point/" alt="" coords="5,155,59,181"/>
-<area shape="rect" href="classStr.html" title="string" alt="" coords="83,155,123,181"/>
-<area shape="rect" href="classSym.html" title="symbol" alt="" coords="147,155,197,181"/>
-<area shape="rect" href="classInt.html" title="integer" alt="" coords="13,229,51,256"/>
+<area shape="rect" title="object hypergraph node /root class/" alt="" coords="393,5,457,32"/>
+<area shape="rect" href="classActive.html" title=" " alt="" coords="133,80,196,107"/>
+<area shape="rect" href="classContainer.html" title=" " alt="" coords="382,80,467,107"/>
+<area shape="rect" href="classPrimitive.html" title=" " alt="" coords="629,80,711,107"/>
+<area shape="rect" href="classCmd.html" title="VM command." alt="" coords="5,155,57,181"/>
+<area shape="rect" href="classFn.html" title="function" alt="" coords="81,155,120,181"/>
+<area shape="rect" href="classOp.html" title="operator" alt="" coords="145,155,185,181"/>
+<area shape="rect" href="classVM.html" title="Virtual Machine (process)" alt="" coords="209,155,251,181"/>
+<area shape="rect" href="classMap.html" title="associative array" alt="" coords="275,155,326,181"/>
+<area shape="rect" href="classQueue.html" title="FIFO." alt="" coords="350,155,414,181"/>
+<area shape="rect" href="classStack.html" title="LIFO." alt="" coords="438,155,497,181"/>
+<area shape="rect" href="classVector.html" title="ordered container" alt="" coords="521,155,585,181"/>
+<area shape="rect" href="classNum.html" title="number /floating point/" alt="" coords="609,155,662,181"/>
+<area shape="rect" href="classStr.html" title="string" alt="" coords="686,155,726,181"/>
+<area shape="rect" href="classSym.html" title="symbol" alt="" coords="750,155,801,181"/>
+<area shape="rect" href="classInt.html" title="integer" alt="" coords="616,229,655,256"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="classObject__coll__graph.png" border="0" usemap="#aObject_coll__map" alt="Collaboration graph"/></div>
+<map name="aObject_coll__map" id="aObject_coll__map">
+<area shape="rect" title="object hypergraph node /root class/" alt="" coords="5,7,69,33"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">garbage collector</h2></td></tr>
-<tr class="memitem:aba883e5c9061751636964481aeef27a3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#aba883e5c9061751636964481aeef27a3">value</a></td></tr>
-<tr class="memdesc:aba883e5c9061751636964481aeef27a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">static value: object name, string/number,..  <a href="classObject.html#aba883e5c9061751636964481aeef27a3">More...</a><br /></td></tr>
-<tr class="separator:aba883e5c9061751636964481aeef27a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">constructor</div></td></tr>
 <tr class="memitem:ac90a03ac53b26cc394c92270ac2b0fd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ac90a03ac53b26cc394c92270ac2b0fd8">Object</a> (string V)</td></tr>
 <tr class="separator:ac90a03ac53b26cc394c92270ac2b0fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f5483f459e46687bd01e6f9977afd3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#ae8f5483f459e46687bd01e6f9977afd3">~Object</a> ()</td></tr>
 <tr class="separator:ae8f5483f459e46687bd01e6f9977afd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">text dump &amp; stringify</div></td></tr>
 <tr class="memitem:a294fe23c43b2155e40c6793993a31c9d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a294fe23c43b2155e40c6793993a31c9d">dump</a> (int depth=0, string prefix=&quot;&quot;)</td></tr>
+<tr class="memdesc:a294fe23c43b2155e40c6793993a31c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">full text tree dump  <a href="classObject.html#a294fe23c43b2155e40c6793993a31c9d">More...</a><br /></td></tr>
 <tr class="separator:a294fe23c43b2155e40c6793993a31c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3aded631c9a3c1b5ff87ebf40937eb"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a5b3aded631c9a3c1b5ff87ebf40937eb">pad</a> (int depth)</td></tr>
+<tr class="memdesc:a5b3aded631c9a3c1b5ff87ebf40937eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">tree padding  <a href="classObject.html#a5b3aded631c9a3c1b5ff87ebf40937eb">More...</a><br /></td></tr>
 <tr class="separator:a5b3aded631c9a3c1b5ff87ebf40937eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4321e39985e8b3a098442eba8beaf687"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a4321e39985e8b3a098442eba8beaf687">head</a> (string prefix)</td></tr>
+<tr class="memdesc:a4321e39985e8b3a098442eba8beaf687"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>&lt;T:V&gt;</code> header  <a href="classObject.html#a4321e39985e8b3a098442eba8beaf687">More...</a><br /></td></tr>
 <tr class="separator:a4321e39985e8b3a098442eba8beaf687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe8e3b76731e0410f9db28f56554656"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#affe8e3b76731e0410f9db28f56554656">tag</a> ()</td></tr>
+<tr class="memitem:affe8e3b76731e0410f9db28f56554656"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#affe8e3b76731e0410f9db28f56554656">tag</a> ()</td></tr>
+<tr class="memdesc:affe8e3b76731e0410f9db28f56554656"><td class="mdescLeft">&#160;</td><td class="mdescRight">class/type tag  <a href="classObject.html#affe8e3b76731e0410f9db28f56554656">More...</a><br /></td></tr>
 <tr class="separator:affe8e3b76731e0410f9db28f56554656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3aa8bb6813b93f05adc6fd20825c6a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#a8e3aa8bb6813b93f05adc6fd20825c6a">val</a> ()</td></tr>
+<tr class="memdesc:a8e3aa8bb6813b93f05adc6fd20825c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">object <a class="el" href="classObject.html#aba883e5c9061751636964481aeef27a3">value</a> as string  <a href="classObject.html#a8e3aa8bb6813b93f05adc6fd20825c6a">More...</a><br /></td></tr>
 <tr class="separator:a8e3aa8bb6813b93f05adc6fd20825c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">attribute grammar fields</div></td></tr>
+<tr class="memitem:aba883e5c9061751636964481aeef27a3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObject.html#aba883e5c9061751636964481aeef27a3">value</a></td></tr>
+<tr class="memdesc:aba883e5c9061751636964481aeef27a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">static value: object name, string/number,..  <a href="classObject.html#aba883e5c9061751636964481aeef27a3">More...</a><br /></td></tr>
+<tr class="separator:aba883e5c9061751636964481aeef27a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">garbage collector</h2></td></tr>
+<tr class="memitem:ga844ee972422d983652fca24c7f89b95e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gc.html#ga844ee972422d983652fca24c7f89b95e">ref</a></td></tr>
+<tr class="memdesc:ga844ee972422d983652fca24c7f89b95e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ref counter  <a href="group__gc.html#ga844ee972422d983652fca24c7f89b95e">More...</a><br /></td></tr>
+<tr class="separator:ga844ee972422d983652fca24c7f89b95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29524055e3b5fe5df2e3c41fa81ff1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gc.html#ga29524055e3b5fe5df2e3c41fa81ff1ff">next</a></td></tr>
+<tr class="memdesc:ga29524055e3b5fe5df2e3c41fa81ff1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">next object in global list  <a href="group__gc.html#ga29524055e3b5fe5df2e3c41fa81ff1ff">More...</a><br /></td></tr>
+<tr class="separator:ga29524055e3b5fe5df2e3c41fa81ff1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06a8516dc3e30f634b42a673b2d9a189"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gc.html#ga06a8516dc3e30f634b42a673b2d9a189">last</a> = nullptr</td></tr>
+<tr class="memdesc:ga06a8516dc3e30f634b42a673b2d9a189"><td class="mdescLeft">&#160;</td><td class="mdescRight">last in global objects list  <a href="group__gc.html#ga06a8516dc3e30f634b42a673b2d9a189">More...</a><br /></td></tr>
+<tr class="separator:ga06a8516dc3e30f634b42a673b2d9a189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>object hypergraph node /root class/ </p>
@@ -180,6 +221,8 @@ Inheritance diagram for Object:</div>
       </table>
 </div><div class="memdoc">
 
+<p>full text tree dump </p>
+
 </div>
 </div>
 <a id="a4321e39985e8b3a098442eba8beaf687"></a>
@@ -197,6 +240,8 @@ Inheritance diagram for Object:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>&lt;T:V&gt;</code> header </p>
 
 </div>
 </div>
@@ -216,6 +261,8 @@ Inheritance diagram for Object:</div>
       </table>
 </div><div class="memdoc">
 
+<p>tree padding </p>
+
 </div>
 </div>
 <a id="affe8e3b76731e0410f9db28f56554656"></a>
@@ -223,9 +270,6 @@ Inheritance diagram for Object:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">string Object::tag </td>
@@ -234,12 +278,9 @@ Inheritance diagram for Object:</div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>class/type tag </p>
 
 </div>
 </div>
@@ -265,6 +306,10 @@ Inheritance diagram for Object:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>object <a class="el" href="classObject.html#aba883e5c9061751636964481aeef27a3">value</a> as string </p>
+
+<p>Reimplemented in <a class="el" href="classInt.html#af94c2667507e1937e4b09dec91f796ab">Int</a>, and <a class="el" href="classNum.html#a808a4ff2c2c4dc653a3f6a79e7473104">Num</a>.</p>
 
 </div>
 </div>

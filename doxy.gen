@@ -10,3 +10,4 @@ HTML_OUTPUT            = docs
 GENERATE_LATEX         = NO
 EXTENSION_MAPPING      = ino=C++
 EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES

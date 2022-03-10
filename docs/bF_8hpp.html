@@ -69,27 +69,37 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">bF.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;cxxabi.h&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;locale&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;stack&gt;</code><br />
+<code>#include &lt;queue&gt;</code><br />
 <code>#include &quot;bF.parser.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bF.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="bF_8hpp__incl.png" border="0" usemap="#asrc_2bF_8hpp" alt=""/></div>
 <map name="asrc_2bF_8hpp" id="asrc_2bF_8hpp">
-<area shape="rect" title=" " alt="" coords="151,5,238,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,80,107"/>
-<area shape="rect" title=" " alt="" coords="104,80,184,107"/>
-<area shape="rect" title=" " alt="" coords="208,80,283,107"/>
-<area shape="rect" title=" " alt="" coords="307,80,416,107"/>
+<area shape="rect" title=" " alt="" coords="435,5,522,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,83,107"/>
+<area shape="rect" title=" " alt="" coords="107,80,181,107"/>
+<area shape="rect" title=" " alt="" coords="205,80,285,107"/>
+<area shape="rect" title=" " alt="" coords="309,80,384,107"/>
+<area shape="rect" title=" " alt="" coords="408,80,469,107"/>
+<area shape="rect" title=" " alt="" coords="493,80,544,107"/>
+<area shape="rect" title=" " alt="" coords="569,80,631,107"/>
+<area shape="rect" title=" " alt="" coords="655,80,713,107"/>
+<area shape="rect" title=" " alt="" coords="737,80,799,107"/>
+<area shape="rect" title=" " alt="" coords="824,80,933,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -123,29 +133,73 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStr.html">Str</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">string  <a href="classStr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:abc645874599ca7e64d78528dd021c832"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#abc645874599ca7e64d78528dd021c832">TOKEN</a>(C,  X)</td></tr>
-<tr class="separator:abc645874599ca7e64d78528dd021c832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa40b27ae32d6d1ae7160bd6256e08eb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#aa40b27ae32d6d1ae7160bd6256e08eb8">yylex</a> ()</td></tr>
-<tr class="separator:aa40b27ae32d6d1ae7160bd6256e08eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8617a8f2ac0de8bc1cc032cf449e19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#acd8617a8f2ac0de8bc1cc032cf449e19">yyparse</a> ()</td></tr>
-<tr class="separator:acd8617a8f2ac0de8bc1cc032cf449e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51127249e2e6c97dc0428fff5fab580e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#a51127249e2e6c97dc0428fff5fab580e">yyerror</a> (string)</td></tr>
-<tr class="separator:a51127249e2e6c97dc0428fff5fab580e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classContainer.html">Container</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html">Map</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">associative array  <a href="classMap.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVector.html">Vector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ordered container  <a href="classVector.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStack.html">Stack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">LIFO.  <a href="classStack.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueue.html">Queue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FIFO.  <a href="classQueue.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActive.html">Active</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVM.html">VM</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Machine (process)  <a href="classVM.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCmd.html">Cmd</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classVM.html" title="Virtual Machine (process)">VM</a> command.  <a href="classCmd.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFn.html">Fn</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">function  <a href="classFn.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOp.html">Op</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">operator  <a href="classOp.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5e36364965360da7b7cdfc2188e0af84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#a5e36364965360da7b7cdfc2188e0af84">yylineno</a></td></tr>
-<tr class="separator:a5e36364965360da7b7cdfc2188e0af84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9264b77d56b6971f29739e2bda77f51"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#ad9264b77d56b6971f29739e2bda77f51">yytext</a></td></tr>
-<tr class="separator:ad9264b77d56b6971f29739e2bda77f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46af646807e0797e72b6e8945e7ea88b"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#a46af646807e0797e72b6e8945e7ea88b">yyin</a></td></tr>
-<tr class="separator:a46af646807e0797e72b6e8945e7ea88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe6b7f10c8cd88243a6d12e6a8c9b4c8"><td class="memItemLeft" align="right" valign="top">map&lt; string, <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__forth.html#gafe6b7f10c8cd88243a6d12e6a8c9b4c8">W</a></td></tr>
+<tr class="memdesc:gafe6b7f10c8cd88243a6d12e6a8c9b4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Words = Vocabulary.  <a href="group__forth.html#gafe6b7f10c8cd88243a6d12e6a8c9b4c8">More...</a><br /></td></tr>
+<tr class="separator:gafe6b7f10c8cd88243a6d12e6a8c9b4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06521d7f2b1e18f68454f37e192f2cfe"><td class="memItemLeft" align="right" valign="top">queue&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__forth.html#ga06521d7f2b1e18f68454f37e192f2cfe">A</a></td></tr>
+<tr class="memdesc:ga06521d7f2b1e18f68454f37e192f2cfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Async queue.  <a href="group__forth.html#ga06521d7f2b1e18f68454f37e192f2cfe">More...</a><br /></td></tr>
+<tr class="separator:ga06521d7f2b1e18f68454f37e192f2cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66b660e7dec93f9c5fd0ff5a7a118b0f"><td class="memItemLeft" align="right" valign="top">stack&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__forth.html#ga66b660e7dec93f9c5fd0ff5a7a118b0f">S</a></td></tr>
+<tr class="memdesc:ga66b660e7dec93f9c5fd0ff5a7a118b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return <a class="el" href="classStack.html" title="LIFO.">Stack</a> (call/ret)  <a href="group__forth.html#ga66b660e7dec93f9c5fd0ff5a7a118b0f">More...</a><br /></td></tr>
+<tr class="separator:ga66b660e7dec93f9c5fd0ff5a7a118b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38cff37550357b08618df1768694f78d"><td class="memItemLeft" align="right" valign="top">stack&lt; <a class="el" href="classObject.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__forth.html#ga38cff37550357b08618df1768694f78d">D</a></td></tr>
+<tr class="memdesc:ga38cff37550357b08618df1768694f78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data stack.  <a href="group__forth.html#ga38cff37550357b08618df1768694f78d">More...</a><br /></td></tr>
+<tr class="separator:ga38cff37550357b08618df1768694f78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">parser</h2></td></tr>
+<tr class="memitem:abc645874599ca7e64d78528dd021c832"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bF_8hpp.html#abc645874599ca7e64d78528dd021c832">TOKEN</a>(C,  X)</td></tr>
+<tr class="separator:abc645874599ca7e64d78528dd021c832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd8617a8f2ac0de8bc1cc032cf449e19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#gacd8617a8f2ac0de8bc1cc032cf449e19">yyparse</a> ()</td></tr>
+<tr class="memdesc:gacd8617a8f2ac0de8bc1cc032cf449e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">parser  <a href="group__skelex.html#gacd8617a8f2ac0de8bc1cc032cf449e19">More...</a><br /></td></tr>
+<tr class="separator:gacd8617a8f2ac0de8bc1cc032cf449e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51127249e2e6c97dc0428fff5fab580e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#ga51127249e2e6c97dc0428fff5fab580e">yyerror</a> (string)</td></tr>
+<tr class="memdesc:ga51127249e2e6c97dc0428fff5fab580e"><td class="mdescLeft">&#160;</td><td class="mdescRight">syntax error callback  <a href="group__skelex.html#ga51127249e2e6c97dc0428fff5fab580e">More...</a><br /></td></tr>
+<tr class="separator:ga51127249e2e6c97dc0428fff5fab580e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">lexer</h2></td></tr>
+<tr class="memitem:ga5e36364965360da7b7cdfc2188e0af84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#ga5e36364965360da7b7cdfc2188e0af84">yylineno</a></td></tr>
+<tr class="memdesc:ga5e36364965360da7b7cdfc2188e0af84"><td class="mdescLeft">&#160;</td><td class="mdescRight">current line  <a href="group__skelex.html#ga5e36364965360da7b7cdfc2188e0af84">More...</a><br /></td></tr>
+<tr class="separator:ga5e36364965360da7b7cdfc2188e0af84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9264b77d56b6971f29739e2bda77f51"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#gad9264b77d56b6971f29739e2bda77f51">yytext</a></td></tr>
+<tr class="memdesc:gad9264b77d56b6971f29739e2bda77f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">parsed lexeme  <a href="group__skelex.html#gad9264b77d56b6971f29739e2bda77f51">More...</a><br /></td></tr>
+<tr class="separator:gad9264b77d56b6971f29739e2bda77f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga46af646807e0797e72b6e8945e7ea88b"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#ga46af646807e0797e72b6e8945e7ea88b">yyin</a></td></tr>
+<tr class="memdesc:ga46af646807e0797e72b6e8945e7ea88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">current file handler  <a href="group__skelex.html#ga46af646807e0797e72b6e8945e7ea88b">More...</a><br /></td></tr>
+<tr class="separator:ga46af646807e0797e72b6e8945e7ea88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa40b27ae32d6d1ae7160bd6256e08eb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__skelex.html#gaa40b27ae32d6d1ae7160bd6256e08eb8">yylex</a> ()</td></tr>
+<tr class="memdesc:gaa40b27ae32d6d1ae7160bd6256e08eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">lexer (get single token)  <a href="group__skelex.html#gaa40b27ae32d6d1ae7160bd6256e08eb8">More...</a><br /></td></tr>
+<tr class="separator:gaa40b27ae32d6d1ae7160bd6256e08eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="abc645874599ca7e64d78528dd021c832"></a>
@@ -174,131 +228,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    {                             \</div>
-<div class="line">        yylval.o = <span class="keyword">new</span> C(<a class="code" href="bF_8hpp.html#ad9264b77d56b6971f29739e2bda77f51">yytext</a>); \</div>
+<div class="line">        yylval.o = <span class="keyword">new</span> C(<a class="code" href="group__skelex.html#gad9264b77d56b6971f29739e2bda77f51">yytext</a>); \</div>
 <div class="line">        return X;                 \</div>
 <div class="line">    }</div>
-<div class="ttc" id="abF_8hpp_html_ad9264b77d56b6971f29739e2bda77f51"><div class="ttname"><a href="bF_8hpp.html#ad9264b77d56b6971f29739e2bda77f51">yytext</a></div><div class="ttdeci">char * yytext</div></div>
+<div class="ttc" id="agroup__skelex_html_gad9264b77d56b6971f29739e2bda77f51"><div class="ttname"><a href="group__skelex.html#gad9264b77d56b6971f29739e2bda77f51">yytext</a></div><div class="ttdeci">char * yytext</div><div class="ttdoc">parsed lexeme</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a51127249e2e6c97dc0428fff5fab580e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51127249e2e6c97dc0428fff5fab580e">&#9670;&nbsp;</a></span>yyerror()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void yyerror </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa40b27ae32d6d1ae7160bd6256e08eb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa40b27ae32d6d1ae7160bd6256e08eb8">&#9670;&nbsp;</a></span>yylex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int yylex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd8617a8f2ac0de8bc1cc032cf449e19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd8617a8f2ac0de8bc1cc032cf449e19">&#9670;&nbsp;</a></span>yyparse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int yyparse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a46af646807e0797e72b6e8945e7ea88b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46af646807e0797e72b6e8945e7ea88b">&#9670;&nbsp;</a></span>yyin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">FILE* yyin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e36364965360da7b7cdfc2188e0af84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e36364965360da7b7cdfc2188e0af84">&#9670;&nbsp;</a></span>yylineno</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int yylineno</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad9264b77d56b6971f29739e2bda77f51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9264b77d56b6971f29739e2bda77f51">&#9670;&nbsp;</a></span>yytext</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char* yytext</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->

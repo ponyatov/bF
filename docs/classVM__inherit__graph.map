@@ -1,0 +1,5 @@
+<map id="VM" name="VM">
+<area shape="rect" id="node1" title="Virtual Machine (process)" alt="" coords="16,155,59,181"/>
+<area shape="rect" id="node2" href="$classActive.html" title=" " alt="" coords="6,80,69,107"/>
+<area shape="rect" id="node3" href="$classObject.html" title="object hypergraph node /root class/" alt="" coords="5,5,69,32"/>
+</map>

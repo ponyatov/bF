@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['num_6',['Num',['../classNum.html',1,'Num'],['../classNum.html#a2551bb7ef61428c6094f8ee4cff255ce',1,'Num::Num()']]]
+  ['garbage_20collected_20memory_20manager_10',['garbage collected memory manager',['../md_doc_gc.html',1,'']]],
+  ['gc_2emd_11',['gc.md',['../gc_8md.html',1,'']]]
 ];

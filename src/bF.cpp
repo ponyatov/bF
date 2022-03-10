@@ -18,9 +18,17 @@ void yyerror(string msg) {
     exit(-1);
 }
 
-Object::Object(string V) { value = V; }
+Object* Object::last = nullptr;
 
-Object::~Object() {}
+Object::Object(string V) {
+    value = V;
+    next = last;
+    last = this;
+}
+
+Object::~Object() {
+    if (last == this) last = next;
+}
 
 string Object::dump(int depth, string prefix) {
     ostringstream ret;
@@ -37,15 +45,33 @@ string Object::pad(int depth) {
 
 string Object::head(string prefix) {
     ostringstream ret;
-    ret << prefix << '<' << tag() << ':' << val() << '>';
+    ostringstream gid;
+    gid << " @" << this;
+    ret << prefix << '<' << tag() << ':' << val() << '>' << gid.str();
     return ret.str();
 }
 
-string Object::tag() { return ""; }
+string Object::tag() {
+    string name(
+        abi::__cxa_demangle(typeid(*this).name(), nullptr, nullptr, nullptr));
+    ostringstream ret;
+    static locale loc;
+    for (auto c : name) ret << tolower(c, loc);
+    return ret.str();
+}
+
 string Object::val() { return value; }
 
 Primitive::Primitive(string V) : Object(V) {}
 Sym::Sym(string V) : Primitive(V) {}
-Num::Num(string V) : Primitive(V) { value = atof(V.c_str()); }
-Int::Int(string V) : Num(V) { value = atoi(V.c_str()); }
+Num::Num(string V) : Primitive("") { value = atof(V.c_str()); }
+Int::Int(string V) : Num("") { value = atoi(V.c_str()); }
 Str::Str(string V) : Primitive(V) {}
+
+string Num::val() { return to_string(value); }
+string Int::val() { return to_string(value); }
+
+map<string, Object*> W;
+queue<Object*> A;
+stack<Object*> S;
+stack<Object*> D;

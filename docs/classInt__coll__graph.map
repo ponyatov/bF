@@ -1,6 +1,6 @@
 <map id="Int" name="Int">
-<area shape="rect" id="node1" title="integer" alt="" coords="27,229,65,256"/>
-<area shape="rect" id="node2" href="$classNum.html" title="number /floating point/" alt="" coords="19,155,73,181"/>
-<area shape="rect" id="node3" href="$classPrimitive.html" title=" " alt="" coords="5,80,87,107"/>
-<area shape="rect" id="node4" href="$classObject.html" title="object hypergraph node /root class/" alt="" coords="14,5,78,32"/>
+<area shape="rect" id="node1" title="integer" alt="" coords="27,236,65,263"/>
+<area shape="rect" id="node2" href="$classNum.html" title="number /floating point/" alt="" coords="19,160,73,187"/>
+<area shape="rect" id="node3" href="$classPrimitive.html" title=" " alt="" coords="5,84,87,111"/>
+<area shape="rect" id="node4" href="$classObject.html" title="object hypergraph node /root class/" alt="" coords="14,7,78,33"/>
 </map>

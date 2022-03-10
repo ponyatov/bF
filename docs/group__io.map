@@ -1,0 +1,5 @@
+<map id="IO" name="IO">
+<area shape="rect" id="node1" href="$group__net.html" title="base networking" alt="" coords="299,5,344,31"/>
+<area shape="rect" id="node2" title="file input/output" alt="" coords="212,5,251,31"/>
+<area shape="rect" id="node3" href="$group__core.html" title="object (hyper)graph elements" alt="" coords="5,5,164,31"/>
+</map>
